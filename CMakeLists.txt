@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+icmake_minimum_required(VERSION 2.8)
 project(libco)
 
 # This for mac osx only
@@ -19,6 +19,7 @@ set(SOURCE_FILES
         co_hook_sys_call.cpp
         co_routine.cpp
         coctx.cpp
+	co_comm.cpp
         coctx_swap.S)
 
 # Add static and shared library target
